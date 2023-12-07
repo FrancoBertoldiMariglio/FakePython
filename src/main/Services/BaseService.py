@@ -2,8 +2,6 @@ from abc import ABC, abstractmethod
 
 class BaseService(ABC):
 
-    def __init__(self, baseRepository):
-        self.baseRepository = baseRepository
     @abstractmethod
     def findAll(self):
         pass

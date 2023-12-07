@@ -1,4 +1,4 @@
-from BaseServiceImp import BaseServiceImplement
+from .BaseServiceImp import BaseServiceImplement
 
 class PersonaServiceImpl(BaseServiceImplement):
 

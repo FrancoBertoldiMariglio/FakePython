@@ -1,4 +1,4 @@
-from BaseRespository import BaseRepository
+from .BaseRespositoryImplementation import BaseRepository
 
 class DomicilioRepository(BaseRepository):
     pass

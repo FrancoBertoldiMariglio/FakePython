@@ -1,0 +1,10 @@
+uvloop~=0.17.0
+fastapi~=0.103.2
+starlette~=0.27.0
+pydantic~=2.4.2
+websockets~=11.0.3
+uvicorn~=0.23.2
+httptools~=0.6.0
+watchfiles~=0.20.0
+SQLAlchemy~=2.0.22
+python-dotenv~=1.0.0

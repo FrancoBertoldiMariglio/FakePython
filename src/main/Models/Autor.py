@@ -1,9 +1,10 @@
-from src.main.Entities.BaseEntity import BaseEntity
+from src.main.Models.Base import Base
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship, sessionmaker
-from Libro import libros_autores
+from .Libro import libros_autores
 
-class Autor(BaseEntity):
+
+class Autor(Base):
     __tablename__ = 'Autor'
     nombre = Column(String)
     apellido = Column(String)
